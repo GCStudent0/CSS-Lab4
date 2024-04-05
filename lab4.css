@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+html {
+    font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/* Collapse borders */
+table {
+    border-collapse: collapse;
+
+    
+/* Table-layout */
+    width: 100%;
+    table-layout: auto;
+}
+
+
+/* Adjust padding in td and th */
+td, th {
+    border: 1px solid #666;
+    padding: 0.5em;
+
+}
+th {
+    background: rgba(225,225,225,1);
+}
+/* Align text */
+tbody th {
+    text-align: center;
+}
+tbody td {
+    text-align: center;
+}
+thead tr:first-child th:first-child {
+
+
+}
+/* Stripe for rows */
+tbody tr:nth-child(odd){
+    background-color: rgb(0,0,0,0.25);
+}
+
+tfoot td {
+    font-size: 60%;
+}
+caption {
+    font-size: 150%;
+}
